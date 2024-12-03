@@ -2183,6 +2183,18 @@
 		)
 		(uuid a1cb36e4-54dd-472e-ba80-c05ecc32bca3)
 	)
+	(rectangle
+		(start 99.06 97.79)
+		(end 158.75 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cf7c0693-6bdb-430d-af01-6269e1fd8e7b)
+	)
 	(image
 		(at 236.855 54.61)
 		(scale 0.39968)
@@ -4337,6 +4349,95 @@
 			(project "Avionics Power Regulation Board Subscale"
 				(path "/96c718b9-ba1d-44c9-9433-65018c8a3882"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 113.03 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46f09b0e-10ed-4de2-8056-e0dca705a3c5")
+		(property "Reference" "J3"
+			(at 113.792 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 114.3 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal"
+			(at 113.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 113.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "RYLR896"
+			(at 103.124 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "cc8b9af4-88cb-475c-a1cd-4b34757fec20")
+		)
+		(pin "2"
+			(uuid "aa28e5ba-7297-433e-9a48-b881583d8736")
+		)
+		(pin "1"
+			(uuid "51db3f36-8b0b-4e33-9f7c-0c5faf8e8541")
+		)
+		(pin "3"
+			(uuid "f069efc2-b355-4ebd-9717-777bbabec284")
+		)
+		(pin "4"
+			(uuid "a69932f6-3d99-4c6a-92a1-adac5fe0c394")
+		)
+		(pin "6"
+			(uuid "4e9313c4-bcb0-4da2-b8a0-2abd838b028f")
+		)
+		(instances
+			(project ""
+				(path "/96c718b9-ba1d-44c9-9433-65018c8a3882"
+					(reference "J3")
 					(unit 1)
 				)
 			)

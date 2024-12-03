@@ -1,18 +1,4 @@
-24203160599043400
-4907
-ADAFRUIT_4907
-
-
-0
-10
-10
-282841-2
-TE_282841-2
-
-
-0
-2
-2
+24191043713122581
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -34,13 +20,6 @@ BAT_BA9VPC
 0
 2
 2
-BK-18650-PC8
-BAT_BK-18650-PC8
-
-
-0
-8
-8
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -56811,20 +56790,6 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-EEUFR1V101B
-CAPPRD350W60D800H1150
-
-
-0
-2
-2
-EEUTA1V102
-CAPPRD750W80D1600H2500
-
-
-0
-2
-2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -65278,13 +65243,6 @@ LED_THT
 LED_VCCLite_5381H7_6.35x6.35mm
 Yellow 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimport/files/files/5381Series.pdf http://static.vcclite.com/pdf/Mounting%20Hole%20Pattern%202.pdf
 Yellow 5381 Series LED
-0
-2
-2
-LQH32PZ101MN0L
-IND_LQH32PZ101MN0L
-
-
 0
 2
 2
@@ -86491,13 +86449,6 @@ Potentiometer vertical vishay
 0
 3
 3
-RC-10
-IND_RC-10
-
-
-0
-2
-2
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
@@ -89935,6 +89886,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SC0917
+MODULE_SC0917
+
+
+0
+43
+43
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -97236,13 +97194,6 @@ igbt diode module
 0
 25
 25
-UJ31-CH-31-SMT-TR
-CUI_UJ31-CH-31-SMT-TR
-
-
-0
-32
-32
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
