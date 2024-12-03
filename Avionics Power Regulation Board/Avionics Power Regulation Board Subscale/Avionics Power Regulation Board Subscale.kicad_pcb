@@ -128,7 +128,7 @@
 	(footprint "SC0917:MODULE_SC0917"
 		(layer "F.Cu")
 		(uuid "0041e292-b9f9-4c43-b293-794c820574d8")
-		(at 211.62 69.85)
+		(at 223.99 68.58)
 		(property "Reference" "U1"
 			(at -8.325 -28.635 0)
 			(layer "F.SilkS")
