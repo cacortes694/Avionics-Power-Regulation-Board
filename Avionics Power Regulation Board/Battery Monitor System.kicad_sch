@@ -4547,7 +4547,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MFR_25FRF52_10K:RESAD1100W55L680D260"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 81.534 86.614 90)
 			(effects
 				(font
@@ -5145,7 +5145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MFR_25FRF52_10K:RESAD1100W55L680D260"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 81.534 37.084 90)
 			(effects
 				(font
@@ -5283,7 +5283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MFR_25FRF52_10K:RESAD1100W55L680D260"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 112.014 53.594 90)
 			(effects
 				(font
@@ -5353,7 +5353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MFR_25FRF52_10K:RESAD1100W55L680D260"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 82.296 127.254 90)
 			(effects
 				(font
@@ -6059,7 +6059,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MFR_25FRF52_10K:RESAD1100W55L680D260"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 118.364 133.096 90)
 			(effects
 				(font
@@ -6205,7 +6205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MFR_25FRF52_10K:RESAD1100W55L680D260"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 67.056 127.254 90)
 			(effects
 				(font
@@ -6585,7 +6585,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MFR_25FRF52_10K:RESAD1100W55L680D260"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 192.024 35.306 90)
 			(effects
 				(font
@@ -6655,7 +6655,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MFR_25FRF52_10K:RESAD1100W55L680D260"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 153.924 133.096 90)
 			(effects
 				(font
@@ -6910,7 +6910,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MFR_25FRF52_10K:RESAD1100W55L680D260"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 81.534 25.654 90)
 			(effects
 				(font
@@ -7202,7 +7202,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MFR_25FRF52_10K:RESAD1100W55L680D260"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 165.354 106.426 90)
 			(effects
 				(font
@@ -7408,7 +7408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MFR_25FRF52_10K:RESAD1100W55L680D260"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 81.534 48.514 90)
 			(effects
 				(font
@@ -7546,7 +7546,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MFR_25FRF52_10K:RESAD1100W55L680D260"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 119.634 60.706 90)
 			(effects
 				(font
@@ -7614,7 +7614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MFR_25FRF52_10K:RESAD1100W55L680D260"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 73.914 138.684 90)
 			(effects
 				(font
@@ -7752,7 +7752,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MFR_25FRF52_10K:RESAD1100W55L680D260"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 81.534 59.944 90)
 			(effects
 				(font
