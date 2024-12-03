@@ -3979,7 +3979,7 @@
 	)
 	(text "Pi Pico\n"
 		(exclude_from_sim no)
-		(at 17.78 25.4 0)
+		(at 18.034 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
