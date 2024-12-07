@@ -8213,7 +8213,7 @@
 			(xy 194.75 61.25) (xy 194.75 60.25)
 		)
 		(height -15.95)
-		(gr_text "1.0000 mm"
+		(gr_text "0.0394 in"
 			(at 177.65 60.75 90)
 			(layer "User.1")
 			(uuid "063e0b1e-dba7-4440-b526-b90b435e9855")
@@ -8246,7 +8246,7 @@
 			(xy 194.75 61.25) (xy 182.3 61.25)
 		)
 		(height 5.149999)
-		(gr_text "12.4500 mm"
+		(gr_text "0.4902 in"
 			(at 188.525 54.950001 0)
 			(layer "User.1")
 			(uuid "148482de-f748-4f6c-8a35-063e687326a4")
@@ -8279,7 +8279,7 @@
 			(xy 208.3 60.25) (xy 198.85 60.25)
 		)
 		(height 9.4)
-		(gr_text "9.4500 mm"
+		(gr_text "0.3720 in"
 			(at 203.575 49.7 0)
 			(layer "User.1")
 			(uuid "17e29735-3d97-42e1-bc93-1d231dd77e16")
@@ -8312,7 +8312,7 @@
 			(xy 138.485 44.4) (xy 135.985 44.4)
 		)
 		(height 4.01)
-		(gr_text "2.5000 mm"
+		(gr_text "0.0984 in"
 			(at 137.235 39.24 0)
 			(layer "User.1")
 			(uuid "2ef7296b-342d-4e87-bb26-a75459b23e36")
@@ -8345,7 +8345,7 @@
 			(xy 163 45.9) (xy 180 45.9)
 		)
 		(height -2)
-		(gr_text "17.0000 mm"
+		(gr_text "0.6693 in"
 			(at 171.5 42.75 0)
 			(layer "User.1")
 			(uuid "2f963587-3496-4d6b-a9a8-a36973b132ce")
@@ -8378,7 +8378,7 @@
 			(xy 138.485 44.4) (xy 138.485 41.9)
 		)
 		(height -5.92)
-		(gr_text "2.5000 mm"
+		(gr_text "0.0984 in"
 			(at 131.415 43.15 90)
 			(layer "User.1")
 			(uuid "39c8963a-00ce-435b-89b9-4a85778fb2e7")
@@ -8411,7 +8411,7 @@
 			(xy 208 44.2) (xy 208 41.7)
 		)
 		(height 10)
-		(gr_text "2.5000 mm"
+		(gr_text "0.0984 in"
 			(at 216.85 42.95 90)
 			(layer "User.1")
 			(uuid "401683ba-9e3f-4d7f-92cc-17e8dc64335e")
@@ -8444,7 +8444,7 @@
 			(xy 184.8 62.75) (xy 182.3 62.75)
 		)
 		(height 4.65)
-		(gr_text "2.5000 mm"
+		(gr_text "0.0984 in"
 			(at 183.55 56.95 0)
 			(layer "User.1")
 			(uuid "4114b5af-9035-487e-83f2-9b67559915f6")
@@ -8477,7 +8477,7 @@
 			(xy 158.315 44.41) (xy 160.815 44.41)
 		)
 		(height -6.01)
-		(gr_text "2.5000 mm"
+		(gr_text "0.0984 in"
 			(at 159.565 37.25 0)
 			(layer "User.1")
 			(uuid "71c038d6-6f78-41ec-ac52-a969df71d9c2")
@@ -8510,7 +8510,7 @@
 			(xy 184.8 62.75) (xy 184.8 60.25)
 		)
 		(height -3.8)
-		(gr_text "2.5000 mm"
+		(gr_text "0.0984 in"
 			(at 179.85 61.5 90)
 			(layer "User.1")
 			(uuid "78199f41-01af-4c09-86b2-4d8716b24c10")
@@ -8543,7 +8543,7 @@
 			(xy 160.815 41.9) (xy 160.815 59.68)
 		)
 		(height -8.83)
-		(gr_text "17.7800 mm"
+		(gr_text "0.7000 in"
 			(at 168.495 50.79 90)
 			(layer "User.1")
 			(uuid "811975bd-3ddc-4f7b-b380-cff02762a082")
@@ -8576,7 +8576,7 @@
 			(xy 191 44.2) (xy 191 41.7)
 		)
 		(height -6.9)
-		(gr_text "2.5000 mm"
+		(gr_text "0.0984 in"
 			(at 182.95 42.95 90)
 			(layer "User.1")
 			(uuid "8446286c-e03f-4746-a17d-2a2027fa09b7")
@@ -8609,7 +8609,7 @@
 			(xy 205.8 93.4) (xy 208.3 93.4)
 		)
 		(height 6.45)
-		(gr_text "2.5000 mm"
+		(gr_text "0.0984 in"
 			(at 207.05 98.7 0)
 			(layer "User.1")
 			(uuid "84990515-ffc5-41dd-b4df-9b731ee299bd")
@@ -8642,7 +8642,7 @@
 			(xy 177.825 93.9) (xy 177.825 45.9)
 		)
 		(height 11.175)
-		(gr_text "48.0000 mm"
+		(gr_text "1.8898 in"
 			(at 187.85 69.9 90)
 			(layer "User.1")
 			(uuid "85f75040-30df-4cb9-9721-0bae49217c9e")
@@ -8675,7 +8675,7 @@
 			(xy 208 44.2) (xy 210.5 44.2)
 		)
 		(height -7)
-		(gr_text "2.5000 mm"
+		(gr_text "0.0984 in"
 			(at 209.25 36.05 0)
 			(layer "User.1")
 			(uuid "9394f4dd-9756-4aad-a5a6-6d0d2a5ef0d2")
@@ -8708,7 +8708,7 @@
 			(xy 190.78 56.7) (xy 190.78 57.7)
 		)
 		(height 6.68)
-		(gr_text "1.0000 mm"
+		(gr_text "0.0394 in"
 			(at 182.95 57.2 90)
 			(layer "User.1")
 			(uuid "9cb9306f-305c-4bbc-aa9d-a3bf50d137f2")
@@ -8741,7 +8741,7 @@
 			(xy 205.8 93.4) (xy 205.8 95.9)
 		)
 		(height -8.25)
-		(gr_text "2.5000 mm"
+		(gr_text "0.0984 in"
 			(at 212.9 94.65 90)
 			(layer "User.1")
 			(uuid "bd0f5662-a8fc-42cc-8a72-c23d3dd72426")
@@ -8774,7 +8774,7 @@
 			(xy 205.8 62.75) (xy 208.3 62.75)
 		)
 		(height -5.35)
-		(gr_text "2.5000 mm"
+		(gr_text "0.0984 in"
 			(at 207.05 56.25 0)
 			(layer "User.1")
 			(uuid "cf830cce-8b79-4348-9cf2-2a034ffe619e")
@@ -8807,7 +8807,7 @@
 			(xy 148.4 57.035) (xy 160.815 57.035)
 		)
 		(height 6.845)
-		(gr_text "12.4150 mm"
+		(gr_text "0.4888 in"
 			(at 154.6075 62.73 0)
 			(layer "User.1")
 			(uuid "e216dd61-86d7-468f-8da5-b775d6972107")
@@ -8840,7 +8840,7 @@
 			(xy 158.315 44.4) (xy 158.315 41.9)
 		)
 		(height 6.12)
-		(gr_text "2.5000 mm"
+		(gr_text "0.0984 in"
 			(at 163.285 43.15 90)
 			(layer "User.1")
 			(uuid "e2585659-f804-4010-8817-64a7ea92bccb")
@@ -8873,7 +8873,7 @@
 			(xy 205.8 62.75) (xy 205.8 60.25)
 		)
 		(height 5.35)
-		(gr_text "2.5000 mm"
+		(gr_text "0.0984 in"
 			(at 210 61.5 90)
 			(layer "User.1")
 			(uuid "e3e280b8-28d5-4dc6-b288-ad908c95cc46")
@@ -8906,7 +8906,7 @@
 			(xy 135.985 59.68) (xy 160.815 59.68)
 		)
 		(height -27.61)
-		(gr_text "24.8300 mm"
+		(gr_text "0.9776 in"
 			(at 148.4 30.92 0)
 			(layer "User.1")
 			(uuid "e8537eb6-f9f4-487b-a209-6a9481764b16")
@@ -8939,7 +8939,7 @@
 			(xy 184.8 93.4) (xy 184.8 95.9)
 		)
 		(height 5.75)
-		(gr_text "2.5000 mm"
+		(gr_text "0.0984 in"
 			(at 177.9 94.65 90)
 			(layer "User.1")
 			(uuid "ecc2c9ef-9f17-424d-bc78-3f838f5787df")
@@ -8972,7 +8972,7 @@
 			(xy 184.8 93.4) (xy 182.3 93.4)
 		)
 		(height -6.8)
-		(gr_text "2.5000 mm"
+		(gr_text "0.0984 in"
 			(at 183.55 99.05 0)
 			(layer "User.1")
 			(uuid "f300c65c-87e5-4240-b085-d3116ed0db65")
@@ -9005,7 +9005,7 @@
 			(xy 191 44.2) (xy 188.5 44.2)
 		)
 		(height 6.2)
-		(gr_text "2.5000 mm"
+		(gr_text "0.0984 in"
 			(at 189.75 36.85 0)
 			(layer "User.1")
 			(uuid "f7d8ad9a-ec3b-452d-a1fd-b63754d451e6")
