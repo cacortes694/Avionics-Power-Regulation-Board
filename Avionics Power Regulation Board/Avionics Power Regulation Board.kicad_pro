@@ -451,10 +451,10 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -468,10 +468,10 @@
       },
       {
         "bus_width": 24,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.15,
         "line_style": 1,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -508,7 +508,7 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Power Distribution Class",
+        "netclass": "Power Output Class",
         "pattern": "/VIN"
       },
       {
@@ -518,6 +518,38 @@
       {
         "netclass": "Power Output Class",
         "pattern": "/VOUT"
+      },
+      {
+        "netclass": "Power Distribution Class",
+        "pattern": "/VC5"
+      },
+      {
+        "netclass": "Power Distribution Class",
+        "pattern": "/VC3"
+      },
+      {
+        "netclass": "Power Distribution Class",
+        "pattern": "/VC2"
+      },
+      {
+        "netclass": "Power Distribution Class",
+        "pattern": "/VC1"
+      },
+      {
+        "netclass": "Power Distribution Class",
+        "pattern": "/VC0"
+      },
+      {
+        "netclass": "Power Distribution Class",
+        "pattern": "/BAT +"
+      },
+      {
+        "netclass": "Power Distribution Class",
+        "pattern": "/BAT -"
+      },
+      {
+        "netclass": "Power Distribution Class",
+        "pattern": "/Net-(D1-K)"
       }
     ]
   },
@@ -788,10 +820,6 @@
     [
       "d0cb58b1-6d97-4fdb-961a-eacaa62b1bb5",
       "Battery Monitor System"
-    ],
-    [
-      "0516197a-ec8e-4de0-8feb-c957b3c9ca8e",
-      "Pi Pico and Instruments"
     ]
   ],
   "text_variables": {}
