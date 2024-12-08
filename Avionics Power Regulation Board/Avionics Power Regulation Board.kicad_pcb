@@ -7,6 +7,13 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Avionics Power Regulation Board")
+		(date "2024-12-07")
+		(rev "2")
+		(company "AIAA Fresno State")
+		(comment 1 "Author: Carlos Cortes")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
@@ -15405,7 +15412,7 @@
 			(xy 209.6516 135.128) (xy 82.296 135.128)
 		)
 		(height -8.7376)
-		(gr_text "127.3556 mm"
+		(gr_text "5.0140 in"
 			(at 145.9738 142.7156 0)
 			(layer "User.2")
 			(uuid "88e39cfc-7c6b-473d-a788-3c0733015aba")
@@ -15438,7 +15445,7 @@
 			(xy 209.6516 54.6364) (xy 209.6516 135.128)
 		)
 		(height -8.5852)
-		(gr_text "80.4916 mm"
+		(gr_text "3.1690 in"
 			(at 217.0868 94.8822 90)
 			(layer "User.2")
 			(uuid "ac934da7-7bc3-43dc-beb0-f78c59ab5e6d")

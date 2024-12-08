@@ -3259,6 +3259,14 @@
 				)
 			)
 		)
+		(property "Purpose" ""
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "62bef601-4a0a-4d0e-b1ad-584cbc3b434f")
 		)
