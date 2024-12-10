@@ -17946,6 +17946,17 @@
 			(uuid "9a1df6da-e137-4567-8828-3e13dd3fb95b")
 		)
 	)
+	(gr_rect
+		(start 168.25 126.7)
+		(end 185.8 132.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "dcb48eba-a80c-4fcb-a8d6-3d6199ebd165")
+	)
 	(gr_line
 		(start 82.2452 54.6364)
 		(end 82.2452 135.128)
@@ -18122,6 +18133,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "1 GND\n2 VCC"
+		(at 168.65 130.9 0)
+		(layer "F.SilkS")
+		(uuid "74ed79c1-6497-4f90-9500-84a002682907")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "+"
 		(at 181.0512 105.8164 0)
 		(layer "F.SilkS")
@@ -18178,6 +18201,42 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3 SDA\n4 SCL\n"
+		(at 173.95 130.95 0)
+		(layer "F.SilkS")
+		(uuid "a387c6ea-1ed7-4f1c-a3fa-9f7ef90150f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5 ALERT"
+		(at 178.8 130.1 0)
+		(layer "F.SilkS")
+		(uuid "b2d217db-27be-4633-b64f-fe3b54dfac5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "J1 Pins\n\n"
+		(at 173.75 127.95 0)
+		(layer "F.SilkS")
+		(uuid "b8a425ef-e39e-4aea-9962-590d11c99935")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
@@ -23157,7 +23216,7 @@
 				(xy 182.500002 121.655468) (xy 182.556673 121.650509) (xy 182.726692 121.635635) (xy 182.946496 121.576739)
 				(xy 183.013202 121.545632) (xy 183.065607 121.534015) (xy 183.724553 121.534015) (xy 183.724554 121.534015)
 				(xy 183.908627 121.50486) (xy 184.085874 121.44727) (xy 184.251929 121.36266) (xy 184.402704 121.253116)
-				(xy 187.537045 118.118775) (xy 187.646589 117.968) (xy 187.731199 117.801945) (xy 187.734035 117.793216)
+				(xy 187.537045 118.118775) (xy 187.646589 117.968) (xy 187.731199 117.801945) (xy 187.732247 117.798719)
 				(xy 187.758285 117.718583) (xy 187.797722 117.660907) (xy 187.86208 117.633708) (xy 187.876216 117.6329)
 				(xy 192.562188 117.6329) (xy 192.629227 117.652585) (xy 192.649869 117.669219) (xy 192.977767 117.997117)
 				(xy 192.977772 117.997121) (xy 193.128536 118.106657) (xy 193.128538 118.106658) (xy 193.128541 118.10666)
