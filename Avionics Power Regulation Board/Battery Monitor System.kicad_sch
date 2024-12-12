@@ -2070,6 +2070,319 @@
 				)
 			)
 		)
+		(symbol "Simulation_SPICE:PMOS"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PMOS"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "P-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "PMOS"
+				(at 0 -17.145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "PMOS_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -2367,12 +2680,6 @@
 		(uuid "3746628a-4cbb-4663-91b5-62ce9a5a0cbb")
 	)
 	(junction
-		(at 146.05 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3953f81e-5fd7-46bd-be9c-14ee5382d2f0")
-	)
-	(junction
 		(at 67.31 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2383,12 +2690,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58a91add-1dbe-477a-8efc-ab2f4d3fda22")
-	)
-	(junction
-		(at 163.83 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58f4f6d3-c42a-4a81-bd93-096b54e9cb60")
 	)
 	(junction
 		(at 166.37 116.84)
@@ -2445,12 +2746,6 @@
 		(uuid "9568e6c3-3281-4b0f-a90c-124a2dd712ff")
 	)
 	(junction
-		(at 176.53 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a05a688-b705-430d-8b7d-1bbbc4ea4c9b")
-	)
-	(junction
 		(at 68.58 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2487,18 +2782,6 @@
 		(uuid "c90c64c7-4048-4d2c-b5d6-ad9912a4ac4a")
 	)
 	(junction
-		(at 124.46 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce357ba8-d3c5-4d4d-a4ae-8d292c3f6f79")
-	)
-	(junction
-		(at 143.51 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5e1bc99-8e1e-4453-b964-6d084e5d96ea")
-	)
-	(junction
 		(at 88.9 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2527,12 +2810,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f67ed15b-4076-40dd-9dcd-cf0e3f1ee690")
-	)
-	(junction
-		(at 153.67 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f96966ae-13f5-4e18-93ee-97d4a8dd1546")
 	)
 	(junction
 		(at 158.75 138.43)
@@ -2652,16 +2929,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 110.49) (xy 153.67 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10ec0367-0310-4280-80d4-66dba6449664")
-	)
-	(wire
-		(pts
 			(xy 171.45 127) (xy 171.45 130.81)
 		)
 		(stroke
@@ -2742,7 +3009,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 99.06) (xy 153.67 110.49)
+			(xy 153.67 99.06) (xy 153.67 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2752,7 +3019,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 146.685) (xy 224.79 146.685)
+			(xy 158.75 146.05) (xy 224.79 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2792,16 +3059,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 97.79) (xy 153.67 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "234c9584-41ea-4003-beca-6aaea517c66c")
-	)
-	(wire
-		(pts
 			(xy 185.42 44.45) (xy 208.28 44.45)
 		)
 		(stroke
@@ -2812,7 +3069,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 139.7) (xy 128.27 139.7)
+			(xy 119.38 139.7) (xy 128.27 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2829,16 +3086,6 @@
 			(type default)
 		)
 		(uuid "24f4f280-f0fd-4bb9-aee0-4aa6725bed06")
-	)
-	(wire
-		(pts
-			(xy 161.29 116.84) (xy 166.37 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25eab3ab-7233-489e-bbe1-2375fe8b2748")
 	)
 	(wire
 		(pts
@@ -2872,16 +3119,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 97.79) (xy 146.05 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c7e9ca5-3c26-4c64-bda6-6b2fa60e5ae3")
-	)
-	(wire
-		(pts
 			(xy 29.21 54.61) (xy 29.21 58.42)
 		)
 		(stroke
@@ -2889,16 +3126,6 @@
 			(type default)
 		)
 		(uuid "2e4f27a2-7f5f-45e2-bfbf-e94109dd22a0")
-	)
-	(wire
-		(pts
-			(xy 163.83 138.43) (xy 158.75 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ecd9aaa-00b6-44e7-812f-63b4a66534f6")
 	)
 	(wire
 		(pts
@@ -2949,6 +3176,16 @@
 			(type default)
 		)
 		(uuid "38546a8a-9c48-4330-af0b-2ea75135605b")
+	)
+	(wire
+		(pts
+			(xy 153.67 116.84) (xy 166.37 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3871d27a-1d4e-4e95-821b-9878ca721904")
 	)
 	(wire
 		(pts
@@ -3072,26 +3309,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 110.49) (xy 153.67 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54d1f587-14db-4caa-b219-39632d8e4b6f")
-	)
-	(wire
-		(pts
-			(xy 135.89 161.29) (xy 143.51 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "586a285e-e500-4755-ab95-d0a848b7eb5c")
-	)
-	(wire
-		(pts
 			(xy 88.9 26.67) (xy 88.9 29.21)
 		)
 		(stroke
@@ -3112,13 +3329,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 139.7) (xy 124.46 161.29)
+			(xy 151.13 99.06) (xy 153.67 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "646f9b38-33c3-40cb-8dfc-38bc22572ea4")
+		(uuid "6461b5e8-4057-4ffe-8386-44f1a5f4eed9")
 	)
 	(wire
 		(pts
@@ -3202,23 +3419,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 149.86) (xy 143.51 149.86)
+			(xy 153.67 111.76) (xy 153.67 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76f846a6-691c-4c87-b17b-83a9bb10a4aa")
-	)
-	(wire
-		(pts
-			(xy 176.53 162.56) (xy 176.53 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a51d9cb-e4be-4cbd-b7ef-9d0d9bd611c4")
+		(uuid "7a79f25b-1170-4221-8524-00cc15467547")
 	)
 	(wire
 		(pts
@@ -3262,6 +3469,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 115.57) (xy 151.13 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858821ea-a26d-4fd2-b7e0-a1ac44dbb616")
+	)
+	(wire
+		(pts
 			(xy 92.71 87.63) (xy 88.9 87.63)
 		)
 		(stroke
@@ -3292,7 +3509,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 149.86) (xy 176.53 149.86)
+			(xy 143.51 149.86) (xy 181.61 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3372,16 +3589,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 162.56) (xy 176.53 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9703e3c9-7ec5-4a50-b3f3-17915cf60d59")
-	)
-	(wire
-		(pts
 			(xy 133.35 128.27) (xy 133.35 132.08)
 		)
 		(stroke
@@ -3422,7 +3629,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 138.43) (xy 158.75 146.685)
+			(xy 158.75 138.43) (xy 158.75 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3642,6 +3849,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 115.57) (xy 151.13 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be2b909c-e329-4527-aedc-9a310551652a")
+	)
+	(wire
+		(pts
 			(xy 67.31 50.8) (xy 67.31 49.53)
 		)
 		(stroke
@@ -3712,16 +3929,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 162.56) (xy 163.83 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0e74e03-4792-40c3-bbbd-816f0b7c4188")
-	)
-	(wire
-		(pts
 			(xy 193.04 49.53) (xy 193.04 53.34)
 		)
 		(stroke
@@ -3752,7 +3959,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 100.33) (xy 146.05 100.33)
+			(xy 140.97 100.33) (xy 148.59 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3842,7 +4049,17 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 138.43) (xy 163.83 138.43)
+			(xy 148.59 105.41) (xy 148.59 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ff8896-28ac-45a8-8c39-ff71f487671c")
+	)
+	(wire
+		(pts
+			(xy 158.75 138.43) (xy 166.37 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3882,16 +4099,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 139.7) (xy 124.46 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8e0f214-f68f-48ac-baa0-bad1025fea9d")
-	)
-	(wire
-		(pts
 			(xy 88.9 60.96) (xy 88.9 64.77)
 		)
 		(stroke
@@ -3912,26 +4119,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 161.29) (xy 143.51 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eac98f53-4ebe-4c88-b4d4-37c41e83b03f")
-	)
-	(wire
-		(pts
-			(xy 128.27 161.29) (xy 124.46 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3010014-ef2e-4319-8595-b4d8edf0a154")
-	)
-	(wire
-		(pts
 			(xy 208.28 44.45) (xy 208.28 45.72)
 		)
 		(stroke
@@ -3942,16 +4129,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 100.33) (xy 146.05 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f95b10da-5f7a-41d9-8c08-f0ee7ce77fed")
-	)
-	(wire
-		(pts
 			(xy 68.58 43.18) (xy 68.58 38.1)
 		)
 		(stroke
@@ -3959,16 +4136,6 @@
 			(type default)
 		)
 		(uuid "fb530f0f-f42f-466b-a0ae-083b005eb651")
-	)
-	(wire
-		(pts
-			(xy 163.83 162.56) (xy 163.83 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffcec2d9-781b-4545-9995-521508014e62")
 	)
 	(rectangle
 		(start 24.13 29.21)
@@ -4003,16 +4170,6 @@
 			)
 		)
 		(uuid "4e612667-89ae-459f-b5a3-9450c95f17a7")
-	)
-	(text "BAT -\n"
-		(exclude_from_sim no)
-		(at 229.87 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "93263aef-570f-475f-84b1-dde8c118bff9")
 	)
 	(text "Battery Pack\n"
 		(exclude_from_sim no)
@@ -4188,6 +4345,17 @@
 			(justify right bottom)
 		)
 		(uuid "88d851b6-d1d6-4a90-82e1-eb9c62a29e64")
+	)
+	(label "BAT -"
+		(at 224.79 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8bb2e824-027a-4b7f-97a0-eb6291de5b38")
 	)
 	(label "VC0"
 		(at 185.42 67.31 0)
@@ -4789,185 +4957,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BS170:BS170")
-		(at 146.05 107.95 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1aef02d2-77fe-4acb-90f7-cba803c41cc5")
-		(property "Reference" "Q2"
-			(at 146.1328 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 146.1328 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BS170:TO92"
-			(at 146.05 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 146.05 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 146.05 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 128.905 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 127 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 130.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "onsemi"
-			(at 146.05 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            N-Channel 60 V 500mA (Ta) 830mW (Ta) Through Hole TO-92-3\n                        \n"
-			(at 146.05 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "TO-92-3 ON Semiconductor"
-			(at 146.05 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 146.05 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BS170/Onsemi/view-part/?ref=snap"
-			(at 146.05 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "BS170"
-			(at 146.05 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 146.05 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BS170/Onsemi/view-part/?ref=eda"
-			(at 146.05 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "436f7748-a3ed-40ea-9e28-4252f2f0b090")
-		)
-		(pin "3"
-			(uuid "6bb88bef-feb4-4a5f-bc2e-7ac3d9ff23ee")
-		)
-		(pin "2"
-			(uuid "f53ce8cb-6627-4643-9633-a931116c2937")
-		)
-		(instances
-			(project "Avionics Power Regulation Board"
-				(path "/39b96ce3-0d1f-4af7-8d8c-7f35e443ce2d/d0cb58b1-6d97-4fdb-961a-eacaa62b1bb5"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 20.32 88.9 0)
 		(unit 1)
@@ -5028,92 +5017,6 @@
 			(project "Avionics Power Regulation Board"
 				(path "/39b96ce3-0d1f-4af7-8d8c-7f35e443ce2d/d0cb58b1-6d97-4fdb-961a-eacaa62b1bb5"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4007")
-		(at 149.86 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "239d4104-c1bb-4372-83ac-b5cf99c5c108")
-		(property "Reference" "D4"
-			(at 149.86 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 149.86 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 149.86 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 149.86 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 149.86 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 149.86 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 149.86 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b26ed606-f677-4209-adc5-ae1c0e48ff80")
-		)
-		(pin "2"
-			(uuid "d831ad2d-1f95-4098-a602-9cebe1c97edf")
-		)
-		(instances
-			(project "Avionics Power Regulation Board"
-				(path "/39b96ce3-0d1f-4af7-8d8c-7f35e443ce2d/d0cb58b1-6d97-4fdb-961a-eacaa62b1bb5"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5880,92 +5783,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4007")
-		(at 168.91 162.56 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61467e6c-7e38-4007-a021-2e8a4fe36887")
-		(property "Reference" "D6"
-			(at 168.91 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 168.91 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 168.91 158.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 168.91 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 168.91 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 168.91 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 168.91 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0270594d-6003-4f27-96fb-baba9cf9fe51")
-		)
-		(pin "2"
-			(uuid "92b439f1-16a7-4187-a5bc-8ab249fd8e74")
-		)
-		(instances
-			(project "Avionics Power Regulation Board"
-				(path "/39b96ce3-0d1f-4af7-8d8c-7f35e443ce2d/d0cb58b1-6d97-4fdb-961a-eacaa62b1bb5"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 172.72 83.82 0)
 		(unit 1)
@@ -6096,6 +5913,94 @@
 			(project "Avionics Power Regulation Board"
 				(path "/39b96ce3-0d1f-4af7-8d8c-7f35e443ce2d/d0cb58b1-6d97-4fdb-961a-eacaa62b1bb5"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4007")
+		(at 153.67 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6543161c-b0cf-4d8c-b0b9-9fb480990572")
+		(property "Reference" "D3"
+			(at 156.21 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 156.21 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 158.115 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 153.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+			(at 153.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 153.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 153.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de0fdefd-72cb-48d8-935d-e22401fa06f8")
+		)
+		(pin "2"
+			(uuid "618b748c-8ffe-4133-a1e8-aca88f5fed1a")
+		)
+		(instances
+			(project "Avionics Power Regulation Board"
+				(path "/39b96ce3-0d1f-4af7-8d8c-7f35e443ce2d/d0cb58b1-6d97-4fdb-961a-eacaa62b1bb5"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7023,92 +6928,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4007")
-		(at 157.48 116.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b4af7f2-aaea-4318-8aaa-bbe34363201f")
-		(property "Reference" "D5"
-			(at 157.48 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 157.48 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 157.48 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 157.48 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 157.48 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 157.48 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 157.48 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a877bd13-d6a9-446a-a4ae-dabd4485e09a")
-		)
-		(pin "2"
-			(uuid "f4491f3d-946c-4187-b637-cfe6c65bbd50")
-		)
-		(instances
-			(project "Avionics Power Regulation Board"
-				(path "/39b96ce3-0d1f-4af7-8d8c-7f35e443ce2d/d0cb58b1-6d97-4fdb-961a-eacaa62b1bb5"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 134.62 114.3 0)
 		(unit 1)
@@ -7239,6 +7058,114 @@
 			(project "Avionics Power Regulation Board"
 				(path "/39b96ce3-0d1f-4af7-8d8c-7f35e443ce2d/d0cb58b1-6d97-4fdb-961a-eacaa62b1bb5"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 146.05 110.49 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae43b586-1093-47e9-8ee5-719ff897bdba")
+		(property "Reference" "Q2"
+			(at 142.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BS170:TO92"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 146.05 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 146.05 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 146.05 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 146.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 146.05 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "60dc8053-fe95-4ac1-9e72-2556e3a32808")
+		)
+		(pin "1"
+			(uuid "fe52fb69-5d3f-4056-97fa-09f76b11e7af")
+		)
+		(pin "2"
+			(uuid "6c0c901b-21c7-43d8-b525-637c3f6d1b0d")
+		)
+		(instances
+			(project ""
+				(path "/39b96ce3-0d1f-4af7-8d8c-7f35e443ce2d/d0cb58b1-6d97-4fdb-961a-eacaa62b1bb5"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -8111,100 +8038,6 @@
 			(project "Avionics Power Regulation Board"
 				(path "/39b96ce3-0d1f-4af7-8d8c-7f35e443ce2d/d0cb58b1-6d97-4fdb-961a-eacaa62b1bb5"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4007")
-		(at 132.08 161.29 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9429403-8071-47f8-85a2-6a8ed22c505c")
-		(property "Reference" "D3"
-			(at 132.08 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 132.08 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 132.08 156.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 132.08 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 132.08 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 132.08 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 132.08 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Custom Field" ""
-			(at 132.08 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d76074f0-f442-4e3c-8c20-5a46107da970")
-		)
-		(pin "1"
-			(uuid "378b1cc7-69ea-4959-a732-64be007d6058")
-		)
-		(instances
-			(project "Avionics Power Regulation Board"
-				(path "/39b96ce3-0d1f-4af7-8d8c-7f35e443ce2d/d0cb58b1-6d97-4fdb-961a-eacaa62b1bb5"
-					(reference "D3")
 					(unit 1)
 				)
 			)
