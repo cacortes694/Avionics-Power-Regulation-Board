@@ -1,0 +1,57 @@
+.title KiCad schematic
+.model __Q1 VDMOS NCHAN
+.model __Q3 VDMOS NCHAN
+.model __D3 D
+.model __Q2 VDMOS PCHAN
+C1 /VIN GNDREF EEUFR1V101B
+D1 __D1
+U1 __U1
+L1 Net-_D1-K_ /VOUT RC-10
+C2 /VOUT GNDREF EEUTA1V102
+Cout2 /VIN GNDREF 10u
+J1 __J1
+Rcomp1 Net-_U4-COMP_ Net-_Ccomp1-Pad1_ 51kOhm
+Ccomp1 Net-_Ccomp1-Pad1_ GNDREF 1.1n
+CBY1 /REGOUT GNDREF 1u
+CIN1 /REGOUT GNDREF 10u
+R1 /VIN Net-_U4-FB_ 158kOhm
+Cout1 /VIN GNDREF 10u
+R2 Net-_U4-FB_ GNDREF 18.2kOhm
+L2 /REGOUT Net-_D2-A_ 3.3u
+CSS1 Net-_U4-SS_ GNDREF 100n
+U4 __U4
+D2 __D2
+RF1 Net-_U2-BAT_ /Battery_Monitor_System/BAT_+ 1k
+C6 /Battery_Monitor_System/BAT_+ GNDREF 1u
+MQ1 Net-_Q1-Pad1_ /Battery_Monitor_System/DSG Net-_Q1-Pad3_ __Q1
+MQ3 Net-_Q1-Pad1_ Net-_D3-K_ /Battery_Monitor_System/BAT_- __Q3
+R9 Net-_D3-K_ Net-_D3-A_ 1MOhm
+U2 __U2
+C8 GNDREF Net-_U2-BAT_ 10u
+C7 GNDREF /REGOUT 4.7u
+RC5 GNDREF /Battery_Monitor_System/VC0 100
+RSNS1 GNDREF Net-_Q1-Pad3_ 20m
+C3 GNDREF /Battery_Monitor_System/SRP 0.1u
+R3 /Battery_Monitor_System/SRP GNDREF 100
+R4 /Battery_Monitor_System/SRN Net-_Q1-Pad3_ 100
+C4 /Battery_Monitor_System/SRP /Battery_Monitor_System/SRN 0.1u
+C5 /Battery_Monitor_System/SRN GNDREF 0.1u
+SW1 __SW1
+R5 Net-_R5-Pad1_ Net-_U2-TS1_ 10kOhm
+CAP1 Net-_U2-CAP1_ GNDREF 1u
+R7 GNDREF Net-_U2-TS1_ 10kOhm
+R6 Net-_Q1-Pad3_ /Battery_Monitor_System/DSG 1MOhm
+D3 Net-_D3-A_ Net-_D3-K_ __D3
+R8 /Battery_Monitor_System/BAT_- Net-_D3-K_ 1MOhm
+MQ2 Net-_D3-A_ GNDREF /Battery_Monitor_System/CHG __Q2
+BT1 __BT1
+CC2 /Battery_Monitor_System/VC3 /Battery_Monitor_System/VC2 1u
+RC3 Net-_BT1-Pad2+_ /Battery_Monitor_System/VC2 100
+RC2 Net-_BT1-Pad3+_ /Battery_Monitor_System/VC3 100
+RC1 /Battery_Monitor_System/BAT_+ /Battery_Monitor_System/VC5 100
+CC5 GNDREF /Battery_Monitor_System/VC0 1u
+CC1 /Battery_Monitor_System/VC5 /Battery_Monitor_System/VC3 1u
+CC4 /Battery_Monitor_System/VC1 GNDREF 1u
+CC3 /Battery_Monitor_System/VC2 /Battery_Monitor_System/VC1 1u
+RC4 Net-_BT1-Pad1+_ /Battery_Monitor_System/VC1 100
+.end
