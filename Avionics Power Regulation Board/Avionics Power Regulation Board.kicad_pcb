@@ -6217,7 +6217,7 @@
 		)
 		(fp_arc
 			(start 0.9689 -2.209799)
-			(mid 2.380095 -0.395237)
+			(mid 2.380095 -0.395238)
 			(end 1.631 1.778)
 			(stroke
 				(width 0.1524)
@@ -6423,7 +6423,7 @@
 		)
 		(fp_arc
 			(start 0.9689 -2.209799)
-			(mid 2.380095 -0.395237)
+			(mid 2.380095 -0.395238)
 			(end 1.631 1.778)
 			(stroke
 				(width 0.1524)
@@ -7604,7 +7604,8 @@
 		)
 		(property "Value" "PMEG2010AEH"
 			(at 0 2.1 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
+			(hide yes)
 			(uuid "63324ac4-1f4b-4230-9693-a460a8b3d250")
 			(effects
 				(font
@@ -13909,7 +13910,7 @@
 		)
 		(fp_arc
 			(start 0.9689 -2.209799)
-			(mid 2.380095 -0.395237)
+			(mid 2.380095 -0.395238)
 			(end 1.631 1.778)
 			(stroke
 				(width 0.1524)
@@ -18024,6 +18025,18 @@
 		(at 183.388 120.8532 0)
 		(layer "F.SilkS")
 		(uuid "2d95b114-a729-47e4-86d3-611d1e69e080")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 166.9 123.7 0)
+		(layer "F.SilkS")
+		(uuid "3045aef2-4e8e-42b8-b7ed-ca34bee6e6c1")
 		(effects
 			(font
 				(size 1 1)
