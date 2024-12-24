@@ -3526,7 +3526,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AIAP-01-3R3K-T:INDAD1227W51L914D355"
+		(property "Footprint" "3.3uH:IND_BOURNS_RLB9012"
 			(at 60.96 63.5 0)
 			(effects
 				(font

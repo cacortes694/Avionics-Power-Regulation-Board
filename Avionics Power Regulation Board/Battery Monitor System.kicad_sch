@@ -6178,7 +6178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BS170:TO92"
+		(property "Footprint" "BS170_2:TO92"
 			(at 171.45 135.89 0)
 			(effects
 				(font
@@ -6311,6 +6311,14 @@
 				)
 				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 171.45 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6628,7 +6636,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BS170:TO92"
+		(property "Footprint" "BS170_2:TO92"
 			(at 133.35 137.16 0)
 			(effects
 				(font
@@ -6769,6 +6777,14 @@
 				)
 				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 133.35 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7091,7 +7107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BS170:TO92"
+		(property "Footprint" "BS170_2:TO92"
 			(at 151.13 113.03 0)
 			(effects
 				(font

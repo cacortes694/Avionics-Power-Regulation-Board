@@ -6217,7 +6217,7 @@
 		)
 		(fp_arc
 			(start 0.9689 -2.209799)
-			(mid 2.380094 -0.395238)
+			(mid 2.380095 -0.395237)
 			(end 1.631 1.778)
 			(stroke
 				(width 0.1524)
@@ -6269,6 +6269,17 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "4e821d49-f8bc-4148-b735-32a70622cfb8")
+		)
+		(model "C:/Users/bigad/Downloads/BS170 (1)/BS170.step"
+			(offset
+				(xyz 0 0.5 1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "BS170_2:TO92"
@@ -6412,7 +6423,7 @@
 		)
 		(fp_arc
 			(start 0.9689 -2.209799)
-			(mid 2.380094 -0.395238)
+			(mid 2.380095 -0.395237)
 			(end 1.631 1.778)
 			(stroke
 				(width 0.1524)
@@ -6467,6 +6478,17 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "71c4ecc4-ea13-4e2c-81e4-4c57e9e7b5ec")
+		)
+		(model "C:/Users/bigad/Downloads/BS170 (1)/BS170.step"
+			(offset
+				(xyz 0 0.5 1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "Capacitor_THT:C_Radial_D4.0mm_H7.0mm_P1.50mm"
@@ -6834,7 +6856,7 @@
 			)
 		)
 		(property "Footprint" "3.3uH:IND_BOURNS_RLB9012"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bbf19dca-00da-4998-90bd-4acb82b6920d")
@@ -6846,7 +6868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0a4076f1-1c90-4463-87f2-5ee89bd00812")
@@ -6858,7 +6880,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f2a07d57-869f-4302-94fa-8259648cb6e5")
@@ -7176,6 +7198,17 @@
 			(net 20 "Net-(D2-A)")
 			(pintype "passive")
 			(uuid "b19b894a-631f-4260-9eed-608129e1f83b")
+		)
+		(model "C:/Users/bigad/Downloads/RLB9012_331KL/RLB9012-331KL.step"
+			(offset
+				(xyz 3 0 1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 180)
+			)
 		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
@@ -13876,7 +13909,7 @@
 		)
 		(fp_arc
 			(start 0.9689 -2.209799)
-			(mid 2.380094 -0.395238)
+			(mid 2.380095 -0.395237)
 			(end 1.631 1.778)
 			(stroke
 				(width 0.1524)
@@ -13928,6 +13961,17 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "a4529b37-57b7-4563-bb46-f1555eee7ea0")
+		)
+		(model "C:/Users/bigad/Downloads/BS170 (1)/BS170.step"
+			(offset
+				(xyz 0 0.5 1)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
