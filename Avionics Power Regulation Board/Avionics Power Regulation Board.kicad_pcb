@@ -14554,7 +14554,7 @@
 			(pintype "passive")
 			(uuid "0ed2cb86-06fb-4595-8763-ba0c4a859f4b")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-8_3x3mm_P0.65mm.wrl"
+		(model "C:/Users/bigad/Downloads/TPS61085DGKR/TPS61085DGKR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14562,7 +14562,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
