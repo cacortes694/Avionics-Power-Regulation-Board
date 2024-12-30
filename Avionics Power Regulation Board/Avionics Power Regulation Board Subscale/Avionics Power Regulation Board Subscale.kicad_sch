@@ -5982,6 +5982,17 @@
 		)
 		(uuid "6089127b-b737-428d-83e7-556b0207662f")
 	)
+	(label "GND"
+		(at 60.96 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77b6dad6-0389-4927-a217-5586da48032b")
+	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 137.16 66.04 0)
