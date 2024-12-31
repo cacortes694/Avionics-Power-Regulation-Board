@@ -3962,6 +3962,18 @@
 		)
 	)
 	(junction
+		(at 77.47 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "208219c9-87a5-418a-b084-93d80904b147")
+	)
+	(junction
+		(at 77.47 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88badfa1-99cb-482b-84f4-803d50b88a00")
+	)
+	(junction
 		(at 48.26 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4055,6 +4067,26 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 115.57) (xy 77.47 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38927a69-462b-4e92-8671-03f186c7130b")
+	)
+	(wire
+		(pts
+			(xy 77.47 107.95) (xy 77.47 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d8615c-7c32-49fa-91a1-ce4d789a4a91")
+	)
+	(wire
+		(pts
 			(xy 45.72 127) (xy 43.18 127)
 		)
 		(stroke
@@ -4075,6 +4107,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 113.03) (xy 77.47 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5548887b-7dae-4715-9ebd-7190ced5a065")
+	)
+	(wire
+		(pts
 			(xy 60.96 125.73) (xy 60.96 127)
 		)
 		(stroke
@@ -4085,6 +4127,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 113.03) (xy 77.47 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a2fab19-12b0-4cdc-a2b5-2f64b3df7704")
+	)
+	(wire
+		(pts
 			(xy 40.64 125.73) (xy 40.64 127)
 		)
 		(stroke
@@ -4092,6 +4144,16 @@
 			(type default)
 		)
 		(uuid "9061282a-04e4-4114-9a46-0102ceba20b6")
+	)
+	(wire
+		(pts
+			(xy 77.47 110.49) (xy 76.2 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f2e011-5ac3-4c56-a6d5-713d6c7f4e29")
 	)
 	(wire
 		(pts
@@ -4172,6 +4234,26 @@
 			(type default)
 		)
 		(uuid "d8775c78-475f-4d7e-be06-7821b1183b9c")
+	)
+	(wire
+		(pts
+			(xy 76.2 115.57) (xy 77.47 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f18b364f-cb96-4cf8-90f4-f673766b6e1a")
+	)
+	(wire
+		(pts
+			(xy 76.2 107.95) (xy 77.47 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa96a711-6bf0-4e0d-9f67-b4aea11d829b")
 	)
 	(rectangle
 		(start 99.06 26.67)
@@ -4256,6 +4338,18 @@
 			(type none)
 		)
 		(uuid cf7c0693-6bdb-430d-af01-6269e1fd8e7b)
+	)
+	(rectangle
+		(start 20.32 172.72)
+		(end 43.18 187.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d227442e-e0b2-4c73-bc1d-18916a70f430)
 	)
 	(rectangle
 		(start 99.06 130.81)
@@ -6073,6 +6167,92 @@
 		)
 		(uuid "6089127b-b737-428d-83e7-556b0207662f")
 	)
+	(text "Mounting Holes\n"
+		(exclude_from_sim no)
+		(at 27.94 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c9577cbe-d610-4179-bbf2-037801f97b3f")
+	)
+	(label "Vin"
+		(at 35.56 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "14a07d2e-68bd-4ae2-b268-27c60a541adc")
+	)
+	(label "3.3V"
+		(at 110.49 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "50ae609f-49a3-462e-931a-8c2ebfabd7f5")
+	)
+	(label "3.3V"
+		(at 198.12 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "525e0f57-36a2-4a4e-97e6-11d12f5b97c9")
+	)
+	(label "Vin"
+		(at 76.2 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52ba4337-bc78-4951-ac65-913361bb5fae")
+		(property "Power In" ""
+			(at 76.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "3.3V"
+		(at 107.95 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "60f95cae-a8e8-4e45-9222-cc26fcfc7eab")
+	)
+	(label "3.3V"
+		(at 76.2 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68ec367a-75b3-47c5-8ca2-f0f61e3d88a8")
+	)
 	(label "GND"
 		(at 60.96 127 0)
 		(fields_autoplaced yes)
@@ -6083,6 +6263,28 @@
 			(justify left bottom)
 		)
 		(uuid "77b6dad6-0389-4927-a217-5586da48032b")
+	)
+	(label "3.3V"
+		(at 107.95 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d0ceb837-3390-45da-a58e-e40d540bebe2")
+	)
+	(label "3.3V"
+		(at 105.41 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d3cb6c9a-449b-4748-a300-838eb00c555a")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -6143,6 +6345,73 @@
 			(project "Avionics Power Regulation Board Subscale"
 				(path "/96c718b9-ba1d-44c9-9433-65018c8a3882"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 110.49 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10d04f5b-92af-4240-8142-0f0b00ae6028")
+		(property "Reference" "#PWR08"
+			(at 104.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 106.68 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a56c7bae-9db6-433c-ba72-b4d3cafa4df3")
+		)
+		(instances
+			(project "Avionics Instrumentation and Microcontroller Board"
+				(path "/96c718b9-ba1d-44c9-9433-65018c8a3882"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6556,6 +6825,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 77.47 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b81a6b9-0d90-4d40-88fe-cf10a43c9a53")
+		(property "Reference" "#PWR03"
+			(at 83.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 81.28 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 77.47 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "115baa11-73bc-4214-8e7c-b936393ded17")
+		)
+		(instances
+			(project "Avionics Instrumentation and Microcontroller Board"
+				(path "/96c718b9-ba1d-44c9-9433-65018c8a3882"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 139.7 139.7 0)
 		(unit 1)
@@ -6684,6 +7020,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 198.12 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b6c892a-7193-491e-816f-7538e8f69dc5")
+		(property "Reference" "#PWR04"
+			(at 191.77 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 194.31 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3a1b15a-ddd8-4440-962b-17bf53e1a648")
+		)
+		(instances
+			(project "Avionics Instrumentation and Microcontroller Board"
+				(path "/96c718b9-ba1d-44c9-9433-65018c8a3882"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 110.49 71.12 0)
 		(unit 1)
@@ -6761,6 +7164,73 @@
 			(project "Avionics Power Regulation Board Subscale"
 				(path "/96c718b9-ba1d-44c9-9433-65018c8a3882"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 105.41 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64dbf0c1-c16c-4ca3-9d89-aa1a43596200")
+		(property "Reference" "#PWR06"
+			(at 99.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 101.6 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 105.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "766d7295-579f-46c2-8601-2d6c96b5ec92")
+		)
+		(instances
+			(project "Avionics Instrumentation and Microcontroller Board"
+				(path "/96c718b9-ba1d-44c9-9433-65018c8a3882"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7066,6 +7536,70 @@
 			(project "Avionics Power Regulation Board Subscale"
 				(path "/96c718b9-ba1d-44c9-9433-65018c8a3882"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 25.4 182.88 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98d37da3-a4de-4da0-9aad-ea35f4f0df71")
+		(property "Reference" "H14"
+			(at 27.94 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 27.94 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 25.4 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Avionics Instrumentation and Microcontroller Board"
+				(path "/96c718b9-ba1d-44c9-9433-65018c8a3882"
+					(reference "H14")
 					(unit 1)
 				)
 			)
@@ -7485,6 +8019,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 107.95 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a68e6002-e370-4716-87a6-dd84af5d95ad")
+		(property "Reference" "#PWR05"
+			(at 101.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 104.14 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d68455b-a94f-444d-a742-823b43be44ff")
+		)
+		(instances
+			(project "Avionics Instrumentation and Microcontroller Board"
+				(path "/96c718b9-ba1d-44c9-9433-65018c8a3882"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 125.73 177.8 0)
 		(unit 1)
@@ -7613,6 +8214,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 35.56 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb4fd127-f613-412f-912f-3782ea4d0935")
+		(property "Reference" "#PWR02"
+			(at 29.21 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 31.75 152.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 35.56 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96bb701f-bf28-495f-b7ab-9a4ae4a13a71")
+		)
+		(instances
+			(project "Avionics Instrumentation and Microcontroller Board"
+				(path "/96c718b9-ba1d-44c9-9433-65018c8a3882"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 137.16 76.2 0)
 		(unit 1)
@@ -7677,8 +8345,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 107.95 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d422d9f9-8168-480f-b740-0026ff3b19dc")
+		(property "Reference" "#PWR07"
+			(at 101.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 104.14 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 107.95 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eeaba792-ba54-46f7-8fa1-75c70500fd49")
+		)
+		(instances
+			(project "Avionics Instrumentation and Microcontroller Board"
+				(path "/96c718b9-ba1d-44c9-9433-65018c8a3882"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x05_Socket")
-		(at 41.91 160.02 0)
+		(at 40.64 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7686,7 +8421,7 @@
 		(dnp no)
 		(uuid "e82802a5-baa5-46c2-984b-9b114f7cf8ad")
 		(property "Reference" "J5"
-			(at 43.18 158.7499 0)
+			(at 41.91 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7695,7 +8430,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05_Socket"
-			(at 43.18 161.2899 0)
+			(at 41.91 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7704,7 +8439,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
-			(at 41.91 160.02 0)
+			(at 40.64 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7713,7 +8448,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 160.02 0)
+			(at 40.64 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7722,7 +8457,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 41.91 160.02 0)
+			(at 40.64 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7731,7 +8466,7 @@
 			)
 		)
 		(property "Purpose" "Battery Board Connection"
-			(at 34.036 145.034 0)
+			(at 33.02 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7923,7 +8658,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 22.86 149.86 0)
+		(at 25.4 177.8 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -7932,7 +8667,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8cb9664-451d-42b5-a14f-5c7b0749e072")
 		(property "Reference" "H2"
-			(at 25.4 148.5899 0)
+			(at 27.94 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7941,7 +8676,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 25.4 151.1299 0)
+			(at 27.94 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7950,7 +8685,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 22.86 149.86 0)
+			(at 25.4 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7959,7 +8694,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 149.86 0)
+			(at 25.4 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7968,7 +8703,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 22.86 149.86 0)
+			(at 25.4 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
