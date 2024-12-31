@@ -124,7 +124,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerbers/")
 		)
 	)
 	(net 0 "")
@@ -4109,7 +4109,7 @@
 		(descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x04 2.54mm single row")
 		(property "Reference" "J1"
-			(at -2.375 3.9 360)
+			(at -2.375 3.9 0)
 			(layer "F.SilkS")
 			(uuid "a844664c-2942-42a8-a32c-e4df4924ac9f")
 			(effects
@@ -4337,7 +4337,7 @@
 			(uuid "47f1f0e8-f383-488a-aee6-39d6473abf21")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 360)
+			(at 0 3.81 0)
 			(layer "F.Fab")
 			(uuid "9c33e85a-aa3f-48af-bfbb-8d9456d5216f")
 			(effects
@@ -4410,7 +4410,7 @@
 		(descr "Mounting Hole 2.1mm, no annular")
 		(tags "mounting hole 2.1mm no annular")
 		(property "Reference" "H5"
-			(at 0 -3.2 360)
+			(at 0 -3.2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "144ae7ba-fe3f-4bd1-96c2-ac63963f6858")
@@ -4422,7 +4422,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.2 360)
+			(at 0 3.2 0)
 			(layer "F.Fab")
 			(uuid "5ce90317-92dc-4eef-a8ff-13b108ffdd01")
 			(effects
@@ -4499,7 +4499,7 @@
 			(uuid "ca8ccb0b-e0c0-4af6-9b83-42cf0deea456")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "8505a312-ceab-423b-95f1-3a9abcfd85f0")
 			(effects
@@ -4524,7 +4524,7 @@
 		(descr "Mounting Hole 2.1mm, no annular")
 		(tags "mounting hole 2.1mm no annular")
 		(property "Reference" "H13"
-			(at 0 -3.2 360)
+			(at 0 -3.2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5f7223a4-43bb-4536-85a7-5a56c54fb041")
@@ -4536,7 +4536,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.2 360)
+			(at 0 3.2 0)
 			(layer "F.Fab")
 			(uuid "a191f4f2-bc6b-4e8b-95b0-39cf8a19c929")
 			(effects
@@ -4613,7 +4613,7 @@
 			(uuid "fe0d3fe7-df70-428e-8ad2-7a4f72f54fdf")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "2055e988-4ebc-463f-89eb-e24b70782ed4")
 			(effects
@@ -4638,7 +4638,7 @@
 		(descr "Through hole straight socket strip, 1x07, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x07 2.54mm single row")
 		(property "Reference" "J2"
-			(at 0 -2.6748 360)
+			(at 0 -2.6748 0)
 			(layer "F.SilkS")
 			(uuid "cdbde3f7-3571-4518-bb37-c9401fff153e")
 			(effects
@@ -4866,7 +4866,7 @@
 			(uuid "c85c615b-bd51-486a-8ecb-0c921c0cb6d6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 7.62 360)
+			(at 0 7.62 0)
 			(layer "F.Fab")
 			(uuid "5f7b6ce2-8a5e-47da-bf62-704ac5105601")
 			(effects
@@ -4972,7 +4972,7 @@
 		(descr "Through hole straight pin header, 2x07, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x07 2.54mm double row")
 		(property "Reference" "J6"
-			(at 1.27 -2.33 360)
+			(at 1.27 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "5ec411b2-c209-49de-8d44-fcdec39ca13d")
 			(effects
@@ -4983,7 +4983,7 @@
 			)
 		)
 		(property "Value" "Conn_02x07_Odd_Even"
-			(at 1.27 17.57 360)
+			(at 1.27 17.57 0)
 			(layer "F.Fab")
 			(uuid "bd565eba-0a2a-467a-9f24-b213bf86fb69")
 			(effects
@@ -5403,7 +5403,7 @@
 		(descr "Mounting Hole 2.1mm, no annular")
 		(tags "mounting hole 2.1mm no annular")
 		(property "Reference" "H1"
-			(at 0 -3.2 360)
+			(at 0 -3.2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fec57138-3a32-4a9b-a8c4-3683dad185e3")
@@ -5415,7 +5415,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.2 360)
+			(at 0 3.2 0)
 			(layer "F.Fab")
 			(uuid "1d081c76-fae8-4cf9-b9ba-5e047baf34dc")
 			(effects
@@ -5492,7 +5492,7 @@
 			(uuid "32dc6fa1-67bd-4c23-9655-efbef3812c57")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "cfe45a8b-7e4a-4119-bfbd-7bc136b00a58")
 			(effects
@@ -5517,7 +5517,7 @@
 		(descr "Through hole angled socket strip, 1x06, 2.54mm pitch, 8.51mm socket length, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole angled socket strip THT 1x06 2.54mm single row")
 		(property "Reference" "J3"
-			(at 2.7978 -0.2036 360)
+			(at 2.7978 -0.2036 0)
 			(layer "F.SilkS")
 			(uuid "ad1dc2e4-a776-4c90-8c8e-36cec93d41fa")
 			(effects
@@ -6305,7 +6305,7 @@
 			(uuid "7881c7db-e33d-472c-88b3-1891924f1107")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -5.775 6.35 360)
+			(at -5.775 6.35 0)
 			(layer "F.Fab")
 			(uuid "03e50036-40d5-4e9f-b903-3530576ecd5a")
 			(effects
@@ -6400,7 +6400,7 @@
 		(descr "Mounting Hole 2.1mm, no annular")
 		(tags "mounting hole 2.1mm no annular")
 		(property "Reference" "H10"
-			(at 0 -3.2 360)
+			(at 0 -3.2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2ed2e983-e8f1-4e22-bae3-87b2a1ba9bd5")
@@ -6412,7 +6412,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.2 360)
+			(at 0 3.2 0)
 			(layer "F.Fab")
 			(uuid "0e328766-9e44-478a-b838-ce6cf43a7c02")
 			(effects
@@ -6489,7 +6489,7 @@
 			(uuid "fb52b6e4-23bd-466d-9195-16f4d01d2393")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "4bad3499-cb99-4db1-b4aa-8af878882ddc")
 			(effects
@@ -6514,7 +6514,7 @@
 		(descr "Through hole straight socket strip, 1x09, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x09 2.54mm single row")
 		(property "Reference" "J7"
-			(at -3.14 -1.945 360)
+			(at -3.14 -1.945 0)
 			(layer "F.SilkS")
 			(uuid "37db07da-92c9-4951-9a91-f75aefa87fea")
 			(effects
@@ -6742,7 +6742,7 @@
 			(uuid "d0769c73-c24c-4d2f-b9a0-771d2451ae28")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 10.16 360)
+			(at 0 10.16 0)
 			(layer "F.Fab")
 			(uuid "b3d1ee89-a8df-411f-a4d6-b7deffc8ace3")
 			(effects
@@ -6870,7 +6870,7 @@
 		(descr "Mounting Hole 2.1mm, no annular")
 		(tags "mounting hole 2.1mm no annular")
 		(property "Reference" "H7"
-			(at 0 -3.2 360)
+			(at 0 -3.2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9f050ebd-da68-48ca-9301-7d1cfa4f6c5e")
@@ -6882,7 +6882,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.2 360)
+			(at 0 3.2 0)
 			(layer "F.Fab")
 			(uuid "688efaca-0e30-4564-9dce-f39f4e33c145")
 			(effects
@@ -6959,7 +6959,7 @@
 			(uuid "cc0737aa-6679-405d-9970-251bcd479cb6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "02d7753b-4ea8-4692-8ec9-2ab9ade09cd8")
 			(effects
@@ -6984,7 +6984,7 @@
 		(descr "Mounting Hole 2.1mm, no annular")
 		(tags "mounting hole 2.1mm no annular")
 		(property "Reference" "H4"
-			(at 0 -3.2 360)
+			(at 0 -3.2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b2e32f73-5aba-4edf-944b-fae7415442a3")
@@ -6996,7 +6996,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.2 360)
+			(at 0 3.2 0)
 			(layer "F.Fab")
 			(uuid "edea78fb-61c5-444c-9e3b-ac420977cf4e")
 			(effects
@@ -7073,7 +7073,7 @@
 			(uuid "fa070323-795e-4b76-92a0-e2e500c9d42f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "7fc49aac-611b-46f6-991a-84ad53e47dcc")
 			(effects
@@ -7098,7 +7098,7 @@
 		(descr "Mounting Hole 2.1mm, no annular")
 		(tags "mounting hole 2.1mm no annular")
 		(property "Reference" "H12"
-			(at 0 -3.2 360)
+			(at 0 -3.2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a6a60a92-3560-4aa4-9dff-b1fa91d9411b")
@@ -7110,7 +7110,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.2 360)
+			(at 0 3.2 0)
 			(layer "F.Fab")
 			(uuid "fba57092-1af1-4545-8e43-462a04398b9d")
 			(effects
@@ -7187,7 +7187,7 @@
 			(uuid "d8d83cca-4503-4ab3-87ad-ec885ecddeb8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f4f45ef1-fe9c-4799-8661-05da30c23094")
 			(effects
@@ -7212,7 +7212,7 @@
 		(descr "Mounting Hole 2.1mm, no annular")
 		(tags "mounting hole 2.1mm no annular")
 		(property "Reference" "H9"
-			(at 0 -3.2 360)
+			(at 0 -3.2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a3264d62-94d8-4e86-896b-916dd964ad5c")
@@ -7224,7 +7224,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.2 360)
+			(at 0 3.2 0)
 			(layer "F.Fab")
 			(uuid "a55f7301-b5ca-46e3-9024-a4249d5b5080")
 			(effects
@@ -7301,7 +7301,7 @@
 			(uuid "217336b3-b7e1-458b-8881-b530c9e2d301")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "42d6c25b-1492-4fec-a01e-dc7310dbdacf")
 			(effects
@@ -7865,7 +7865,7 @@
 		(descr "Mounting Hole 2.1mm, no annular")
 		(tags "mounting hole 2.1mm no annular")
 		(property "Reference" "H3"
-			(at 0 -3.2 360)
+			(at 0 -3.2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4b6c9ef3-e0f2-4775-8263-24325a308700")
@@ -7877,7 +7877,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.2 360)
+			(at 0 3.2 0)
 			(layer "F.Fab")
 			(uuid "490bbe91-786e-468a-8db2-8373ea31246b")
 			(effects
@@ -7954,7 +7954,7 @@
 			(uuid "b1526e74-0df8-4364-98ce-587f84687a63")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "70e15159-6a94-4f5a-b92c-308d3f85a695")
 			(effects
@@ -8207,7 +8207,7 @@
 		(descr "Mounting Hole 2.1mm, no annular")
 		(tags "mounting hole 2.1mm no annular")
 		(property "Reference" "H6"
-			(at 0 -3.2 360)
+			(at 0 -3.2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "214ce5d7-eb5e-446f-8d9a-6d6ea1b7ab26")
@@ -8219,7 +8219,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.2 360)
+			(at 0 3.2 0)
 			(layer "F.Fab")
 			(uuid "1ece1da6-a049-4230-a300-f90bc0d508bd")
 			(effects
@@ -8296,7 +8296,7 @@
 			(uuid "f730f887-88d8-4a5f-a99d-63ceef2d255a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "884934ed-9456-48eb-a7bd-6ae6335178ff")
 			(effects
@@ -8550,7 +8550,7 @@
 			(uuid "31ab1059-a5a2-4047-b460-b76c85cadb66")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 8.89 360)
+			(at 0 8.89 0)
 			(layer "F.Fab")
 			(uuid "e4d4c13e-612f-4d6a-a255-2dc397577988")
 			(effects
@@ -8665,7 +8665,7 @@
 		(uuid "73c6336d-2172-43b1-903d-767ff5c34d27")
 		(at 85.606785 34.18 180)
 		(property "Reference" "G***"
-			(at 0 0 -180)
+			(at 0 0 180)
 			(layer "B.SilkS")
 			(uuid "74cd731a-001e-47af-be6c-045d24c0916e")
 			(effects
@@ -8677,7 +8677,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 0.75 0 -180)
+			(at 0.75 0 180)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "eeb43bb8-133b-4744-a6da-6bfcc84d9f9e")
@@ -8690,7 +8690,7 @@
 			)
 		)
 		(property "Footprint" "AIAA Logo:AIAA_Fresno_Logo_20mm_positive"
-			(at 0 0 -180)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e7597f60-3fef-443f-a44c-708e9629d1f1")
@@ -8703,7 +8703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -180)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fb49160f-5d19-4669-b985-baedb7c31697")
@@ -8716,7 +8716,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -180)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b4d8021d-43c0-4d4f-b583-65b698767ae0")
@@ -10411,7 +10411,7 @@
 		(descr "KiCad Logo")
 		(tags "Logo KiCad")
 		(property "Reference" "REF**"
-			(at 0 8.89 -180)
+			(at 0 8.89 180)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "707bccda-5a3d-45a1-81cf-5790022d2872")
@@ -10424,7 +10424,7 @@
 			)
 		)
 		(property "Value" "KiCad-Logo2_12mm_SilkScreen"
-			(at 1.27 -10.16 -180)
+			(at 1.27 -10.16 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "377ff28a-ad3b-474e-86d2-0dbb2f519fae")
